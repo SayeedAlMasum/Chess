@@ -3,9 +3,14 @@
     height: 1200px;
   }    
 .board-section{
-    flex-direction: column;    
+    flex-direction: column; 
+    margin-left: 0;   
     }
    
+.card{
+    width: 10rem;
+    height: 15rem;
+}
 }
 body{
     overflow-x: hidden;
@@ -13,7 +18,7 @@ body{
 }
 main{
     border-radius: 1px solid ;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url(../th.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url(../Images/th.jpg);
     background-size:initial;
     background-position: center;
     background-attachment: fixed;
@@ -21,13 +26,17 @@ main{
     width:100%;
    
 }
-.btn-one{
-
+.btn-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
 }
 .btn-warning{
     color: #fff;
     width:15rem;
     border: none;
+    
    
 }
 .btn-warning:hover{
@@ -41,8 +50,10 @@ main{
     display:flex;
     justify-content: space-around;
     align-items: center; 
-  margin: auto 10rem;
+    padding: -20px;
+
 }
 .card{
     width:20rem;
+    height: 19rem;
 }
