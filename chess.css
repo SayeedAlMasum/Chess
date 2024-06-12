@@ -1,6 +1,10 @@
 @media screen and (max-width:576px) {
   main{
     height: 1200px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url(../Images/th.jpg);
+    background-size:initial;
+    background-position: center;
+    background-attachment: fixed;
   }    
 .board-section{
     flex-direction: column; 
