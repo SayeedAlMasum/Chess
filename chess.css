@@ -1,10 +1,7 @@
 @media screen and (max-width:576px) {
   main{
     height: 1200px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url(../Images/th.jpg);
-    background-size:initial;
-    background-position: center;
-    background-attachment: fixed;
+    
   }    
 .board-section{
     flex-direction: column; 
@@ -34,30 +31,25 @@ main{
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 300px;
+     height: 350px;
 }
 .btn-warning{
     color: #fff;
     width:15rem;
-    border: none;
-    
-   
+    border: none;   
 }
 .btn-warning:hover{
-    color: rgb(240, 224, 6);
-    
-}
-.btn:hover{
-    color: rgb(185, 174, 9);
+    color: rgb(240, 224, 6);    
 }
 .board-section{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; 
-    padding: -20px;
+    gap: 5%;
+ 
 
 }
 .card{
-    width:20rem;
+    width:19rem;
     height: 19rem;
 }
